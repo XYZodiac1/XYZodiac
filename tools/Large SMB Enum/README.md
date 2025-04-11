@@ -40,12 +40,12 @@ sudo apt install smbclient
 
 Using the tool:
 ```bash
-chmod +x smb_enum_flex.sh
-./smb_enum_flex.sh <IP> [-u username -p password]
+chmod +x large-smb-enum.sh
+./large-smb-enum.sh <IP> [-u username -p password]
 ```
 
 Example:
 ```bash
-./smb_enum_flex.sh 10.10.10.10
-./smb_enum_flex.sh 10.10.10.10 -u admin -p admin
+./large-smb-enum.sh 10.10.10.10
+./large-smb-enum.sh 10.10.10.10 -u admin -p admin
 ```
